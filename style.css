@@ -1,0 +1,71 @@
+header {
+  background-image: url(https://www.lezionidarte.it/wp-content/uploads/2022/03/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog-scaled-e1646155272470.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 25%;
+}
+.card-img-top {
+  aspect-ratio: 1/0.7;
+}
+
+.col-6.col-sm-4.col-md-4.col-lg-3.col-xl-3.col-xxl-3.mb-4 {
+  position: relative;
+}
+.new {
+  width: 15%;
+  position: absolute;
+  z-index: 3;
+  left: 85%;
+  top: -3%;
+}
+
+#welcomeSummer .card {
+  box-shadow: 2px 2px 7px rgb(255, 242, 209);
+}
+
+#lastMinute .card {
+  height: 200px;
+  border: none;
+}
+
+#lastMinute .card:hover img {
+  opacity: 0;
+}
+
+#lastMinute .card:hover h5 {
+  color: black;
+}
+
+#lastMinute img {
+  height: inherit;
+  object-fit: cover;
+  transition: opacity 1.2s;
+}
+
+#lastMinute h5 {
+  font-size: 4em;
+  color: white;
+  transition: color 4s;
+}
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+figure {
+  margin: 0;
+}
+.text-end {
+  width: 50%;
+}
+.blockquote {
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 576px) {
+  #offertaDelGiorno {
+    display: none;
+  }
+}

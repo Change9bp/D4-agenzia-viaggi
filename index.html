@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">LA VASTITA</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Dicono di Noi</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Offerte
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#offertaSettimana"
+                    >Offerte settimana</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#welcomeSummer"
+                    >Welcome summer</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#offertaDelGiorno"
+                    >Offerta del giorno</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#lastMinute">Last Minute</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <header id="home" class="py-5 mb-4">
+      <div class="jumbotron container py-3">
+        <h1 class="display-4">La vastità</h1>
+        <p class="lead">la vastità del... <b>MONDO</b>, ti aspetta!</p>
+        <hr class="my-4" />
+        <p>
+          Ti interessa scoprire le abitudini culinarie dell'<b>UGANDA</b>? Ti
+          sei mai chiesto dove si trova il bagno in un
+          <b>IGLOO</b>?<br />Allora sei un esploratore, e sei nel posto giusto!
+        </p>
+        <p class="lead">
+          <a class="btn btn-dark btn-lg" href="#" role="button"
+            >Scopri quanti viaggi abbiamo
+            <span class="badge text-bg-secondary"></span
+          ></a>
+        </p>
+      </div>
+    </header>
+    <h1 id="titolo" class="ps-5">
+      Offerte,
+      <small class="text-body-secondary">della settimana</small>
+    </h1>
+    <main class="mb-5">
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end my-3">
+        <button class="btn btn-dark me-md-2" type="button">Nascondi</button>
+      </div>
+      <section id="offertaSettimana" class="container">
+        <div class="row gx-3">
+          <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+            <div class="card">
+              <img
+                src="https://www.turismo.it/typo3temp/pics/705918f466.jpg"
+                class="card-img-top"
+                alt="Egitto"
+              />
+              <h5 class="card-header">Egitto</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+            <img src="./img/new.png" alt="" srcset="" class="new" />
+            <div class="card">
+              <img
+                src="https://www.superviaggi.com/wp-content/uploads/2022/07/San-Diego.jpg"
+                class="card-img-top"
+                alt="California-SanDiego"
+              />
+              <h5 class="card-header">San Diego, California</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+            <div class="card">
+              <img
+                src="https://blog.italotreno.it/wp-content/uploads/2021/09/iStock-480794748-1140x660.jpg"
+                class="card-img-top"
+                alt="Barletta"
+              />
+              <h5 class="card-header">Barletta, Puglia</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+            <img src="./img/new.png" alt="" srcset="" class="new" />
+            <div class="card">
+              <img
+                src="https://static.wixstatic.com/media/df9fb8_e5e20e1fdb2a455680a0a728cb32de3c~mv2.jpg/v1/fit/w_1000%2Ch_660%2Cal_c%2Cq_80,enc_auto/file.jpg"
+                class="card-img-top"
+                alt="Islanda"
+              />
+              <h5 class="card-header">Islanda</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+            <div class="card">
+              <img
+                src="https://travel.thewom.it/content/uploads/sites/4/2022/09/zanzibar-cosa-vedere-704x400.jpeg"
+                class="card-img-top"
+                alt="Zanzibar"
+              />
+              <h5 class="card-header">Zanzibar</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+            <div class="card">
+              <img
+                src="https://i0.wp.com/www.2cuoriinviaggio.it/wp-content/uploads/2021/03/Alessandria-cosa-vedere-2-Cuori-in-Viaggio.jpg?fit=1200%2C800&ssl=1"
+                class="card-img-top"
+                alt="Alessandria"
+              />
+              <h5 class="card-header">Alessandria, Piemonte</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+            <img src="./img/new.png" alt="" srcset="" class="new" />
+            <div class="card">
+              <img
+                src="https://scontent.ccdn.cloud/image/vivitravels-it/fd5fddea-b905-4395-90c9-6c8d9e3a0e1f/maxw-960.jpg"
+                class="card-img-top"
+                alt="San Pietroburgo"
+              />
+              <h5 class="card-header">San Pietroburgo, Russia</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-4 col-md-4 col-lg-3 col-xl-3 col-xxl-3 mb-4">
+            <img src="./img/new.png" alt="" srcset="" class="new" />
+            <div class="card">
+              <img
+                src="https://www.trovaspiagge.it/wp-content/uploads/2009/04/spiaggia-ostia-lido-2.jpg"
+                class="card-img-top"
+                alt="Ostia lido"
+              />
+              <h5 class="card-header">Ostia lido, Lazio</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <h1 id="titolo" class="ps-5">
+        Welcome,
+        <small class="text-body-secondary">summer</small>
+      </h1>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end my-3">
+        <button class="btn btn-dark me-md-2" type="button">Nascondi</button>
+      </div>
+      <section id="welcomeSummer" class="container">
+        <div class="row gx-3">
+          <div class="col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 col-xxl-2 mb-4">
+            <div class="card">
+              <img
+                src="https://static2-viaggi.corriereobjects.it/wp-content/uploads/2016/02/barcellona-ph-Betty-Colombo.jpg?v=1455814073"
+                class="card-img-top"
+                alt="Barcellona"
+              />
+              <h5 class="card-header">Barcellona</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 col-xxl-2 mb-4">
+            <div class="card">
+              <img
+                src="https://in-italia.imgix.net/pi/35/o/35936_o.jpg"
+                class="card-img-top"
+                alt="Porto Santa Margherita"
+              />
+              <h5 class="card-header">Veneto</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 col-xxl-2 mb-4">
+            <div class="card">
+              <img
+                src="https://travel.thewom.it/content/uploads/sites/4/2022/09/cinque-terre_7-704x528.png"
+                class="card-img-top"
+                alt="Cinque Terre"
+              />
+              <h5 class="card-header">Cinque Terre</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 col-xxl-2 mb-4">
+            <div class="card">
+              <img
+                src="https://www.sardegna.info/wp-content/uploads/sites/5/santa-teresa-di-gallura-hd.jpg"
+                class="card-img-top"
+                alt="Santa Teresa"
+              />
+              <h5 class="card-header">Santa Teresa</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 col-xxl-2 mb-4">
+            <div class="card">
+              <img
+                src="https://global-uploads.webflow.com/5f82fd88166eb97cde0e507b/60f73ef1792ed18865dd723b_rodi-garganico.jpg"
+                class="card-img-top"
+                alt="Rodi Garganico"
+              />
+              <h5 class="card-header">Rodi Garganico</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 col-xxl-2 mb-4">
+            <div class="card">
+              <img
+                src="https://www.bellavitainpuglia.it/Content/images/blog/d20c4244fe6c3cc85ebe535a0b0881f3.jpg"
+                class="card-img-top"
+                alt="Isole Tremiti"
+              />
+              <h5 class="card-header">Isole Tremiti</h5>
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h1 id="titolo" class="ps-5">
+        Offerta,
+        <small class="text-body-secondary">del giorno</small>
+      </h1>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end my-3">
+        <button class="btn btn-dark me-md-2" type="button">Nascondi</button>
+      </div>
+      <section id="offertaDelGiorno">
+        <div class="card mb-3 container border-0">
+          <div class="row g-0">
+            <div class="col-md-8">
+              <div
+                id="carouselExampleSlidesOnly"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      src="https://www.lavocedeltempo.com/var/nostrotempo/storage/images/territorio/carmagnola-citta-e-borghi-alla-sfida-dell-integrazione/2156869-1-ita-IT/Carmagnola-citta-e-borghi-alla-sfida-dell-integrazione_articleimage.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="https://cdn0.matrimonio.com/vendor/9458/3_2/960/jpg/lorena15_2_109458.jpeg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="https://www.ilturista.info/myTurista/files/1/la_centrale_piazza_santagostino_a_carmagnola_piemonte.jpg"
+                      class="d-block w-100"
+                      alt="..."
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-body">
+                <h5 class="card-title">Carmagnola, Piemonte</h5>
+                <p class="card-text">
+                  dal 14/08/2023 al 19/08/2023 4 notti <br /><br />
+                  Pensione completa, Hotel 3 stelle lusso, € 500,00 per 2
+                  persone <br /><br /><br />
+                  La città funge da snodo per le principali arterie stradali di
+                  collegamento fra il capoluogo piemontese ed il basso Piemonte
+                  (provincia di Cuneo). Proprio la particolare posizione dal
+                  punto di vista stradale ha fatto non poco discutere a riguardo
+                  della realizzazione di tangenziali/circonvallazioni che
+                  consentano di evitare l'attraversamento del concentrico urbano
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary"
+                    >Last updated 3 mins ago</small
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <h1 id="titolo" class="ps-5">
+        Offerte,
+        <small class="text-body-secondary">last minute</small>
+      </h1>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end my-3">
+        <button class="btn btn-dark me-md-2" type="button">Nascondi</button>
+      </div>
+      <section id="lastMinute" class="container">
+        <div class="row gy-2">
+          <div class="col-12">
+            <div class="card">
+              <img
+                src="https://www.isoladifuerteventura.com/wp-content/uploads/2015/07/3-1000x400.jpg"
+                class="card-img"
+                alt="Canarie"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">CANARIE</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="card">
+              <img
+                src="https://www.shutterstock.com/image-photo/beautiful-beach-water-bungalows-maldives-260nw-1107070814.jpg"
+                class="card-img"
+                alt="Maldive"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">MALDIVE</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="card">
+              <img
+                src="https://www.exoticca.com/uk/magazine/wp-content/uploads/2018/01/The-5-most-beautiful-places-to-visit-in-Indonesia.jpg"
+                class="card-img"
+                alt="INDONESIA"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">INDONESIA</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="card">
+              <img
+                src="https://cf.bstatic.com/xdata/images/country/1020x340/544.jpg?k=657c8ba3b439448dd7136d03777d0ebb334b09dfd58948bc15aca81472aab542&o="
+                class="card-img"
+                alt="POLINESIA"
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">POLINESIA</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonial" class="container">
+        <div class="d-flex flex-row justify-content-center align-items-center">
+          <div>
+            <h1 id="titolo" class="ps-5">
+              Testimonial,
+              <small class="text-body-secondary">dicono di noi</small>
+            </h1>
+          </div>
+          <figure class="text-end">
+            <blockquote class="blockquote">
+              <p>A well-known quote, contained in a blockquote element.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              <i class="fa-solid fa-star" style="color: #f0f000"></i
+              ><i class="fa-solid fa-star" style="color: #f0f000"></i
+              ><i class="fa-solid fa-star" style="color: #f0f000"></i
+              ><i class="fa-solid fa-star" style="color: #f0f000"></i>
+              <cite title="Source Title">Source Title</cite>
+            </figcaption>
+            <blockquote class="blockquote">
+              <p>A well-known quote, contained in a blockquote element.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              <i class="fa-solid fa-star" style="color: #f0f000"></i
+              ><i class="fa-solid fa-star" style="color: #f0f000"></i
+              ><i class="fa-solid fa-star" style="color: #f0f000"></i
+              ><i class="fa-solid fa-star" style="color: #f0f000"></i
+              ><i class="fa-solid fa-star" style="color: #f0f000"></i
+              ><cite title="Source Title">Source Title</cite>
+            </figcaption>
+            <blockquote class="blockquote">
+              <p>A well-known quote, contained in a blockquote element.</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+              <i class="fa-solid fa-star" style="color: #f0f000"></i
+              ><i class="fa-solid fa-star" style="color: #f0f000"></i
+              ><i class="fa-solid fa-star" style="color: #f0f000"></i
+              ><i class="fa-solid fa-star" style="color: #f0f000"></i
+              ><i class="fa-solid fa-star-half" style="color: #f0f000"></i>
+              <cite title="Source Title">Source Title</cite>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
+    <footer class="text-center bg-dark text-bg-dark">
+      <address>
+        La Vastità <br />Corso Vittorio Emanuele II, Torino <br />0119982745
+        <br />lavastita@gmail.com <br />
+      </address>
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+        data-bs-whatever="@lavastita"
+      >
+        Contattaci
+      </button>
+
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5 text-black" id="exampleModalLabel">
+                Nuovo messaggio
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name " class="col-form-label text-black"
+                    >Oggetto:</label
+                  >
+                  <input type="text" class="form-control" id="recipient-name" />
+                </div>
+                <div class="mb-3">
+                  <label for="message-text " class="col-form-label text-black"
+                    >Messaggio:</label
+                  >
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Send message
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./scirpt.js"></script>
+  </body>
+</html>
